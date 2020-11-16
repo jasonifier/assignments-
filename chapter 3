@@ -21,6 +21,11 @@ for i in range(a,b+1):
 print("your total is: ", sum)
 
 #problem 3 chapter 3
+
+Jason: You have multiple inputs being called inside a for-loop,
+       the requirement is a single input line. Then review how get that
+       input string converted to a list.
+
 list1 = [] 
 for i in range(10): 
     num = int(input("Enter numbers: ")) 
@@ -39,6 +44,9 @@ for i in range(a,b+1,c):
     print(i)
     
 #problem 5 chapter 3
+
+Jason: All of the problems don't require libraries to be installed.
+       See if you can find a way to solve this without Numpy.
 
 for i in range(1,50):
     list1 = i
